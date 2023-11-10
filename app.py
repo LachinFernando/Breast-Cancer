@@ -73,7 +73,7 @@ st.title("Breast Cancer Classification")
 st.image(IMG_ADDRESS, caption = "Breast Cancer Classification")
 
 # input image
-st.subheader("Please Upload a Biopsy Image")
+st.subheader("Please Upload a Biopsy Scan")
 
 # file uploader
 image = st.file_uploader("Please Upload a Biopsy Image", type = ["jpg", "png", "jpeg"], accept_multiple_files = False, help = "Uploade an Image")
