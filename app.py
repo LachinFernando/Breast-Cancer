@@ -68,12 +68,12 @@ ultrasound_model = load_sklearn_models("ultrasound_new_semi_diffused_featurizor_
 # web app
 
 # title
-st.title("Breast Cancer Diagnosis")
+st.title("Breast Cancer Classification")
 # image
-st.image(IMG_ADDRESS, caption = "Breast Cancer Diagnosis")
+st.image(IMG_ADDRESS, caption = "Breast Cancer Classification")
 
 # input image
-st.subheader("Please Upload a Biopsy Image")
+st.subheader("Please Upload a Biopsy Scan")
 
 # file uploader
 image = st.file_uploader("Please Upload a Biopsy Image", type = ["jpg", "png", "jpeg"], accept_multiple_files = False, help = "Uploade an Image")
